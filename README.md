@@ -5,4 +5,4 @@ It takes a file with Commands that are supposed to be checkt. Example: EEGPSR_Ca
 It needs pocketsphinx to run and the Topic that it has to listen at.
 It writes all accepted Commands in one file and the declined and partly parsed Commands into 2 other files.
 
-Usage: python testGrammar.py <CommandsFileName> <acceptedFileName> <declinedFileName> <partlyFileName> <Topic>
+Usage: python testGrammar.py CommandsFileName acceptedFileName declinedFileName partlyFileName Topic
