@@ -8,7 +8,7 @@ class GrammarTestNode:
         self.state = False
         rospy.init_node('talker', anonymous=True)
         self.pub = rospy.Publisher('/ps_adapter/custom_rec', String, queue_size=1)
-        rospy.Subscriber(args[5], String, self.callback)
+        rospy.Subscriber(topicName, String, self.callback)
         rate = rospy.Rate(10) #10hz
         print('node stuff done')
         rospy.sleep(0.5)
@@ -49,14 +49,42 @@ class GrammarTestNode:
 
 if __name__ == '__main__':
     args = sys.argv
-    if len(args) < 5:
-        print('Usage: python testGrammar.py <ExampleCommandsFileName> <AcceptedCommandsFileName> <DeclinedCommandsFileName> <partlyParsedFileName> <grammarNameForTopic')
+    if len(args) != 6 and len(args) != 2:
+        print('Usage: python testGrammar.py <ExampleCommandsFileName> <AcceptedCommandsFileName> <DeclinedCommandsFileName> <partlyParsedFileName> <grammarNameForTopic>\nShortcut: python testGrammar.py gpsr\nShortcut: python testGrammar.py eegpsr\nShortcut: python testGrammar.py spr')
         sys.exit()
+    
+    if len(args) == 6:
+        exampleCommandsFileName = args[1]
+        acceptedCommandsFileName = args[2]
+        declinedCommandsFileName = args[3]
+        partlyParsedCommandsFileName = args[4]
+        topicName = args[5]
+    if len(args) == 2:
+        if args[1] == 'gpsr':
+            exampleCommandsFileName = 'GPSRCmdGen/GPSR Cat2 Examples/GPSR Cat2 Examples.txt'
+            acceptedCommandsFileName = 'gpsr_accepted.txt'
+            declinedCommandsFileName = 'gpsr_declined.txt'
+            partlyParsedCommandsFileName = 'gpsr_partlyparsed.txt'
+        if args[1] == 'eegpsr':
+            exampleCommandsFileName = 'GPSRCmdGen/EEGPSR Cat5 Examples/EEGPSR Cat5 Examples.txt'
+            acceptedCommandsFileName = 'eegpsr_accepted.txt'
+            declinedCommandsFileName = 'eegpsr_declined.txt'
+            partlyParsedCommandsFileName = 'eegpsr_partlyparsed.txt'
+        if args[1] == 'spr':
+            exampleCommandsFileName = '????'
+            acceptedCommandsFileName = 'spr_accepted.txt'
+            declinedCommandsFileName = 'spr_declined.txt'
+            partlyParsedCommandsFileName = 'spr_partlyparsed.txt'
+            print('NOT SUPPORTED YET; MISSING EXAMPLE FILE LOCATION')
+            sys.exit()
+
+    topicName = 'ps_adapter/custom_rec'
+    print('using following configuration:\n'+exampleCommandsFileName+'\n'+acceptedCommandsFileName+'\n'+declinedCommandsFileName+'\n'+partlyParsedCommandsFileName+'\n'+topicName)
 
     try:
-        file = open(args[1], 'r')
+        file = open(exampleCommandsFileName, 'r')
     except IOError:
-        print ('error reading to' + args[1])
+        print ('error reading to' + exampleCommandsFileName)
         sys.exit()
 
     commands = file.readlines();
@@ -64,21 +92,21 @@ if __name__ == '__main__':
     file.close
 
     try:
-        caught = open(args[2], 'w')
+        caught = open(acceptedCommandsFileName, 'w')
     except IOError:
-        print ('error writing to ' + args[2])
+        print ('error writing to ' + acceptedCommandsFileName)
         sys.exit()
 
     try:
-        declined = open(args[3], 'w')
+        declined = open(declinedCommandsFileName, 'w')
     except IOError:
-        print ('error writing to ' + args[3])
+        print ('error writing to ' + declinedCommandsFileName)
         sys.exit()
 
     try:
-        partly = open(args[4], 'w')
+        partly = open(partlyParsedCommandsFileName, 'w')
     except IOError:
-        print  ('error writing to ' + args[4])
+        print  ('error writing to ' + partlyParsedCommandsFileName)
         sys.exit()
 
     node = GrammarTestNode(commands, caught, declined, partly)
