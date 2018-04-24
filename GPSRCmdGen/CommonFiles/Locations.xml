@@ -11,7 +11,7 @@
     <location name="cabinet" isBeacon="true" isPlacement="true" />
     <location name="sink" isBeacon="true" isPlacement="true" />
     <location name="bar" isBeacon="true" isPlacement="true" />
-    <location name="kitchen counter" isBeacon="true" isPlacement="true" />
+    <location name="kitchencounter" isBeacon="true" isPlacement="true" />
     <location name="stove" isBeacon="true" isPlacement="true" />
     <location name="fridge" isPlacement="true" />
   </room>

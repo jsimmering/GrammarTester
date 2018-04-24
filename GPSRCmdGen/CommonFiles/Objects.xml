@@ -2,7 +2,6 @@
 <categories>
   <category name="container" defaultLocation="living table" room="living room">
     <object name="basket"        difficulty="easy"  type="known"     canPlaceIn="true" />
-    <object name="red bowl"      difficulty="easy"  type="known"     canPlaceIn="true" />
   </category>
   <category name="food" defaultLocation="kitchen counter" room="kitchen">
     <object name="cereals"  difficulty="high"  type="known"  />
