@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<categories>
+  <category name="container" defaultLocation="living table" room="living room">
+    <object name="basket"        difficulty="easy"  type="known"     canPlaceIn="true" />
+    <object name="red bowl"      difficulty="easy"  type="known"     canPlaceIn="true" />
+  </category>
+  <category name="food" defaultLocation="kitchen counter" room="kitchen">
+    <object name="cereals"  difficulty="high"  type="known"  />
+    <object name="cornflakes"  difficulty="high"  type="known" />
+    <object name="noodles"  difficulty="easy"  type="known"  />
+    <object name="peas"  difficulty="moderate"  type="known"  />
+    <object name="salt"  difficulty="easy"  type="known"  />
+    <object name="tomato paste"  difficulty="easy"  type="known"  />
+  </category>
+  <category name="cleaning stuff" defaultLocation="sink" room="kitchen">
+    <object name="cloth" difficulty="high" type="alike" />
+    <object name="soap" difficulty="moderate" />
+    <object name="sponge" difficulty="easy" />
+  </category>
+  <category name="drink" defaultLocation="bar" room="kitchen">
+    <object name="coconut milk"  difficulty="easy"                    canPour="true" />
+    <object name="coke"          difficulty="easy"                    canPour="true" />
+    <object name="orange drink"  difficulty="easy"                    canPour="true" />
+    <object name="water" 	 difficulty="easy"                    canPour="true" />
+  </category>
+  <category name="cutlery" defaultLocation="cabinet" room="kitchen">
+    <object name="plate"	 difficulty="easy"  type="known"  />
+  </category>
+  <category name="snack" defaultLocation="sofa" room="living room">
+    <object name="pringles"	 difficulty="easy"  type="known"  />
+  </category>
+</categories>
+
+
