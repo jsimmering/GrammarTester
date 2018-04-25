@@ -40,7 +40,7 @@ class GrammarTestNode:
                 caught.write(command)
             else:
                 declined.write(command)
-            rospy.sleep(6)
+            #rospy.sleep(6)
 
     def callback(self, data):
         rospy.loginfo(rospy.get_caller_id() + " got some data: %s", data.data)
