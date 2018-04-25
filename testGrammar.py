@@ -52,7 +52,7 @@ if __name__ == '__main__':
     if len(args) != 6 and len(args) != 2:
         print('Usage: python testGrammar.py <ExampleCommandsFileName> <AcceptedCommandsFileName> <DeclinedCommandsFileName> <partlyParsedFileName> <grammarNameForTopic>\nShortcut: python testGrammar.py gpsr\nShortcut: python testGrammar.py eegpsr\nShortcut: python testGrammar.py spr')
         sys.exit()
-    
+
     if len(args) == 6:
         exampleCommandsFileName = args[1]
         acceptedCommandsFileName = args[2]
@@ -66,7 +66,7 @@ if __name__ == '__main__':
             declinedCommandsFileName = 'gpsr_declined.txt'
             partlyParsedCommandsFileName = 'gpsr_partlyparsed.txt'
         if args[1] == 'eegpsr':
-            exampleCommandsFileName = 'GPSRCmdGen/EEGPSR Cat5 Examples/EEGPSR Cat5 Examples.txt'
+            exampleCommandsFileName = 'GPSRCmdGen/EEGPSR Examples.txt'
             acceptedCommandsFileName = 'eegpsr_accepted.txt'
             declinedCommandsFileName = 'eegpsr_declined.txt'
             partlyParsedCommandsFileName = 'eegpsr_partlyparsed.txt'
