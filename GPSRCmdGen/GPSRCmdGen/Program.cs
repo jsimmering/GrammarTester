@@ -152,10 +152,10 @@ namespace RoboCup.AtHome.GPSRCmdGen
 			if ((args.Length < (i + 2)) || !Int32.TryParse(args[++i], out dCount) || (dCount < 1))
 				dCount = 100;
 
-			Console.WriteLine("Generating {0} examples in bulk mode for 3 categories", dCount);
+			Console.WriteLine("Generating {0} examples in bulk mode for cat 2", dCount);
 			try
 			{
-				for (char category = '1'; category <= '3'; ++category)
+				for (char category = '2'; category <= '2'; ++category)
 				{
 					Console.WriteLine("Generating {0} examples for category {1}", dCount, category);
 					BulkExamples(p, category, dCount);
