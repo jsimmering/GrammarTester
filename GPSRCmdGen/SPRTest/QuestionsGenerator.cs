@@ -35,8 +35,7 @@ namespace RoboCup.AtHome.SPRTest
 		#endregion
 
 		#region Methods
-
-		public List<Task> GetQuestions(){
+    public List<Task> GetQuestions(){
 			/**
 			* It would be quicker with simple if's but I rather use this weird solution 
 			* in case the distribution changes.
@@ -53,6 +52,33 @@ namespace RoboCup.AtHome.SPRTest
 				tasks.Add(GetCrowdQuestion());
 			while(oq-- > 0)
 				tasks.Add(GetObjectQuestion());
+			Shuffle(tasks);
+			return tasks;
+		}
+
+
+		public List<Task> GetQuestions(int wdh){
+			/**
+			* It would be quicker with simple if's but I rather use this weird solution 
+			* in case the distribution changes.
+			*/
+			//int aq = rnd.Next(1,3);
+			//int cq = rnd.Next(1,3);
+			//int oq = 4 - (aq+cq);
+
+			List<Task> tasks = new List<Task>();
+      for (int i = 0; i < wdh; i++) {
+			  tasks.Add(GetPredefinedQuestion());
+			  //while(aq-- > 0)
+				  tasks.Add(GetArenaQuestion());
+				  tasks.Add(GetArenaQuestion());
+			  //while(cq-- > 0)
+				  tasks.Add(GetCrowdQuestion());
+				  tasks.Add(GetCrowdQuestion());
+			  //while(oq-- > 0)
+				  tasks.Add(GetObjectQuestion());
+				  tasks.Add(GetObjectQuestion());
+      }
 			Shuffle(tasks);
 			return tasks;
 		}

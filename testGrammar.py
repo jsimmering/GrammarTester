@@ -65,20 +65,22 @@ if __name__ == '__main__':
             acceptedCommandsFileName = 'gpsr_accepted.txt'
             declinedCommandsFileName = 'gpsr_declined.txt'
             partlyParsedCommandsFileName = 'gpsr_partlyparsed.txt'
+            topicName = '/speechrec/psa/commands/simple'
         if args[1] == 'eegpsr':
             exampleCommandsFileName = 'GPSRCmdGen/EEGPSR Examples.txt'
             acceptedCommandsFileName = 'eegpsr_accepted.txt'
             declinedCommandsFileName = 'eegpsr_declined.txt'
             partlyParsedCommandsFileName = 'eegpsr_partlyparsed.txt'
+            topicName = '/speechrec/psa/commands/simple'
         if args[1] == 'spr':
-            exampleCommandsFileName = '????'
+            exampleCommandsFileName = 'GPSRCmdGen/SPRTest 35000 Examples/SPRTest 3500 Examples.txt'
             acceptedCommandsFileName = 'spr_accepted.txt'
             declinedCommandsFileName = 'spr_declined.txt'
             partlyParsedCommandsFileName = 'spr_partlyparsed.txt'
-            print('NOT SUPPORTED YET; MISSING EXAMPLE FILE LOCATION')
+            topicName = '/speechrec/psa/speechRecognition/simple'
+            #print('NOT SUPPORTED YET; MISSING EXAMPLE FILE LOCATION')
             sys.exit()
 
-    topicName = 'ps_adapter/custom_rec'
     print('using following configuration:\n'+exampleCommandsFileName+'\n'+acceptedCommandsFileName+'\n'+declinedCommandsFileName+'\n'+partlyParsedCommandsFileName+'\n'+topicName)
 
     try:
