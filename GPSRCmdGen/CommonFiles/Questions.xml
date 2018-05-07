@@ -1,91 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <questions>
   <question>
-    <q>What is Robotics?</q>
-    <a>The scientific study of robot.</a>
+    <q>Who invented the C programming language?</q>
+    <a>Ken Thompson and Dennis Ritchie.</a>
   </question>
   <question>
-    <q>Who is considered as the father of industrial robot?</q>
-    <a>Joseph Engelberger.</a>
+    <q>When was invented the C programming language?</q>
+    <a>C was developed after B in 1972 at Bell Labs</a>
   </question>
   <question>
-    <q>Give one example for a computer programming language that can be used for robot programming.</q>
-    <a>AML (A Manufacturing Language)</a>
+    <q>When was invented the B programming language?</q>
+    <a>B was developed circa 1969 at Bell Labs</a>
   </question>
   <question>
-    <q>What is the major disadvantage of using a robot?</q>
-    <a>Heavy investment.</a>
+    <q>Where does the term computer bug come from?</q>
+    <a>From a moth trapped in a relay</a>
   </question>
   <question>
-    <q>Name the language used in Expert system?</q>
-    <a>LISP and PROLOG.</a>
+    <q>Who invented the first compiler</q>
+    <a>Grace Brewster Murray Hopper invented it</a>
   </question>
   <question>
-    <q>Name one of the most important parts in Expert system.</q>
-    <a>Knowledge Base.</a>
+    <q>Which robot is used in the Open Platform League</q>
+    <a>There is no standard defined for OPL</a>
   </question>
   <question>
-    <q>Which system was designed for diagnosis and therapy recommendation for infectious disease?</q>
-    <a>MYCIN.</a>
+    <q>Which robot is used in the Domestic Standard Platform League</q>
+    <a>The Toyota Human Support Robot</a>
   </question>
   <question>
-    <q>What is the importance of AI?</q>
-    <a>Human intelligence have certain limit in speed and accuracy. It is interrupted due to the lack of presence of mind, mood, etc. Bu AI systems have their own superb abilities.</a>
+    <q>Which robot is used in the Social Standard Platform League</q>
+    <a>The SoftBank Robotics Pepper</a>
   </question>
   <question>
-    <q>'Weaving The Web' was written by...</q>
-    <a>Tim Burners Lee</a>
+    <q>How many people live in the Japan?</q>
+    <a>A little over 80 million</a>
   </question>
   <question>
-    <q>What is Beta Test?</q>
-    <a>Trial test of a computer or software before the commercial launch.</a>
+    <q>What are the colours of the Japanese flag?</q>
+    <a>Japanese flag is a red circle centred over white</a>
   </question>
   <question>
-    <q>What is the extension of PDF?</q>
-    <a>Portable document format</a>
+    <q>What city is the capital of the Japan?</q>
+    <a>Tokyo</a>
   </question>
   <question>
-    <q>Expand RDBMS?</q>
-    <a>Relational Data Base Management System</a>
+    <q>What is the highest point in Japan</q>
+    <a>The highest point in Japan is Mount Fuji, which reaches 3776m above sea level</a>
   </question>
   <question>
-    <q>Difference engine was developed by...</q>
-    <a>Charles Babbage</a>
+    <q>What is a Sakura</q>
+    <a>Sakura is the Japanese term for ornamental cherry blossom and its tree</a>
   </question>
   <question>
-    <q>Orkut.com is now owned by...</q>
-    <a>Google</a>
+    <q>Who is the emperor of Japan?</q>
+    <a>His Majesty Akihito sama is the emperor in Japan since January 7, 1989</a>
   </question>
   <question>
-    <q>World's first microprocessor is...</q>
-    <a>Intel 4004</a>
+    <q>What's the name of your team?</q>
+    <a>...</a>
   </question>
   <question>
-    <q>What is SQL?</q>
-    <a>Structured Query Language</a>
+    <q>What time is it?</q>
+    <a>...</a>
   </question>
   <question>
-    <q>What is the expansion of SMS?</q>
-    <a>Short Message Service</a>
+    <q>What day is today?</q>
+    <a>...</a>
   </question>
   <question>
-    <q>Which IT company's nickname is ' The Big Blue ' ?</q>
-    <a>IBM</a>
+    <q>Do you have dreams?</q>
+    <a>I dream of Electric Sheep.</a>
   </question>
   <question>
-    <q>What is the full form of  IEEE?</q>
-    <a>Institute of Electric and Electronic Engineers</a>
-  </question>
-  <question>
-    <q>Email was developed by...</q>
-    <a>Raymond Samuel Tomlinson (Ray Tomlinson)</a>
-  </question>
-  <question>
-    <q>Who is Netizen?</q>
-    <a>Net Citizen (Citizen who uses internet)</a>
-  </question>
-  <question>
-    <q>What is Scareware?</q>
-    <a>Fake antivirus softwares</a>
+    <q>In which city will next year's RoboCup be hosted?</q>
+    <a>It hasn't been announced yet.</a>
   </question>
 </questions>
