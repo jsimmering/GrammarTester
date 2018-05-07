@@ -1,91 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <questions>
   <question>
-    <q>What is Robotics?</q>
-    <a>The scientific study of robot.</a>
+    <q>Who invented the C programming language?</q>
+    <a>Ken Thompson and Dennis Ritchie.</a>
   </question>
   <question>
-    <q>Who is considered as the father of industrial robot?</q>
-    <a>Joseph Engelberger.</a>
+    <q>When was the C programming language invented?</q>
+    <a>C was developed after B in 1972 at Bell Labs</a>
   </question>
   <question>
-    <q>Give one example for a computer programming language that can be used for robot programming.</q>
-    <a>AML (A Manufacturing Language)</a>
+    <q>When was the B programming language invented?</q>
+    <a>B was developed circa 1969 at Bell Labs</a>
   </question>
   <question>
-    <q>What is the major disadvantage of using a robot?</q>
-    <a>Heavy investment.</a>
+    <q>Where does the term computer bug come from?</q>
+    <a>From a moth trapped in a relay</a>
   </question>
   <question>
-    <q>Name the language used in Expert system?</q>
-    <a>LISP and PROLOG.</a>
+    <q>Who invented the first compiler</q>
+    <a>Grace Brewster Murray Hopper invented it</a>
   </question>
   <question>
-    <q>Name one of the most important parts in Expert system.</q>
-    <a>Knowledge Base.</a>
+    <q>Which robot is used in the Open Platform League</q>
+    <a>There is no standard defined for OPL</a>
   </question>
   <question>
-    <q>Which system was designed for diagnosis and therapy recommendation for infectious disease?</q>
-    <a>MYCIN.</a>
+    <q>Which robot is used in the Domestic Standard Platform League</q>
+    <a>The Toyota Human Support Robot</a>
   </question>
   <question>
-    <q>What is the importance of AI?</q>
-    <a>Human intelligence have certain limit in speed and accuracy. It is interrupted due to the lack of presence of mind, mood, etc. Bu AI systems have their own superb abilities.</a>
+    <q>Which robot is used in the Social Standard Platform League</q>
+    <a>The SoftBank Robotics Pepper</a>
   </question>
   <question>
-    <q>'Weaving The Web' was written by...</q>
-    <a>Tim Burners Lee</a>
+    <q>What's the name of your team?</q>
+    <a>...</a>
   </question>
   <question>
-    <q>What is Beta Test?</q>
-    <a>Trial test of a computer or software before the commercial launch.</a>
+    <q>What time is it?</q>
+    <a>...</a>
   </question>
   <question>
-    <q>What is the extension of PDF?</q>
-    <a>Portable document format</a>
+    <q>What day is today?</q>
+    <a>...</a>
   </question>
   <question>
-    <q>Expand RDBMS?</q>
-    <a>Relational Data Base Management System</a>
+    <q>Do you have dreams?</q>
+    <a>I dream of Electric Sheep.</a>
   </question>
   <question>
-    <q>Difference engine was developed by...</q>
-    <a>Charles Babbage</a>
+    <q>In which city will next year's RoboCup be hosted?</q>
+    <a>It hasn't been announced yet.</a>
   </question>
   <question>
-    <q>Orkut.com is now owned by...</q>
-    <a>Google</a>
+  <q>What is the origin of the name Canada?</q>
+  <a>The name Canada comes from the Iroquois word Kanata, meaning village or settlement.</a>
   </question>
   <question>
-    <q>World's first microprocessor is...</q>
-    <a>Intel 4004</a>
+  <q>What is the capital of Canada?</q>
+  <a>The capital of Canada is Ottawa.</a>
   </question>
   <question>
-    <q>What is SQL?</q>
-    <a>Structured Query Language</a>
-  </question>
-  <question>
-    <q>What is the expansion of SMS?</q>
-    <a>Short Message Service</a>
-  </question>
-  <question>
-    <q>Which IT company's nickname is ' The Big Blue ' ?</q>
-    <a>IBM</a>
-  </question>
-  <question>
-    <q>What is the full form of  IEEE?</q>
-    <a>Institute of Electric and Electronic Engineers</a>
-  </question>
-  <question>
-    <q>Email was developed by...</q>
-    <a>Raymond Samuel Tomlinson (Ray Tomlinson)</a>
-  </question>
-  <question>
-    <q>Who is Netizen?</q>
-    <a>Net Citizen (Citizen who uses internet)</a>
-  </question>
-  <question>
-    <q>What is Scareware?</q>
-    <a>Fake antivirus softwares</a>
+  <q>What is the national anthem of Canada?</q>
+  <a>O Canada.</a>
   </question>
 </questions>
