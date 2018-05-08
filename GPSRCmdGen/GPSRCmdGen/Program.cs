@@ -185,7 +185,7 @@ namespace RoboCup.AtHome.GPSRCmdGen
                     sTask = sTask.Replace(";", "");
                     sTask = sTask.Replace("!", "");
                     sTask = sTask.Replace("?", "");
-
+                    sTask = sTask.Replace("'", "");
 					WriteTaskToFile(writer, task, sTask, i);
 					
 				}

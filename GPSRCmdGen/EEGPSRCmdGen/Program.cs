@@ -271,7 +271,7 @@ namespace RoboCup.AtHome.EEGPSRCmdGen
                     sTask = sTask.Replace(";", "");
                     sTask = sTask.Replace("!", "");
                     sTask = sTask.Replace("?", "");
-
+                    sTask = sTask.Replace("'", "");
 					WriteTaskToFile(writer, task, sTask, i);
 				}
 			}

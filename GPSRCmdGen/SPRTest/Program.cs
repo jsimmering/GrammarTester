@@ -227,7 +227,7 @@ namespace RoboCup.AtHome.SPRTest
           sTask = sTask.Replace("!", "");
           sTask = sTask.Replace("?", "");
           sTask = sTask.Replace("q: ", "");
-
+          sTask = sTask:Replace("'", "");
           WriteTaskToFile(writer, task, sTask);
         }
       }
