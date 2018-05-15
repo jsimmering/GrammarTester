@@ -67,7 +67,7 @@ if __name__ == '__main__':
             partlyParsedCommandsFileName = 'gpsr_partlyparsed.txt'
             topicName = '/speechrec/psa/commands/simple'
         if args[1] == 'eegpsr':
-            exampleCommandsFileName = 'GPSRCmdGen/EEGPSR Examples.txt'
+            exampleCommandsFileName ='GPSRCmdGen/EEGPSR_AllCat2_Examples/EEGPSR_AllCat2_Examples.txt'
             acceptedCommandsFileName = 'eegpsr_accepted.txt'
             declinedCommandsFileName = 'eegpsr_declined.txt'
             partlyParsedCommandsFileName = 'eegpsr_partlyparsed.txt'
