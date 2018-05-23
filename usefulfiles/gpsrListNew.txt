@@ -20,12 +20,13 @@ say a joke to the person waving in the kitchen
 say the time to the person pointing to the right in the living room
 
 tell me how many drink there are on the bar
+tell me whats the biggest container on the cabinet
+tell me whats the heaviest food on the stove
+tell me whats the largest object on the living table
+
 tell me how many people in the bath room are standing
 tell me how many people in the corridor are girls
 tell me the gender of the person at the bar
 tell me the name of the person at the sofa
 tell me the pose of the person at the living table
 
-tell me whats the biggest container on the cabinet
-tell me whats the heaviest food on the stove
-tell me whats the largest object on the living table

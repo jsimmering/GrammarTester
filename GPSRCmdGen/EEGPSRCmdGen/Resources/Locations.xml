@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rooms>
   <room name="corridor">
+    <location name="sink" isBeacon="true" isPlacement="true" />
   </room>
   <room name="living room">
-    <location name="living table" isBeacon="true" isPlacement="true" />
-    <location name="sofa" isBeacon="true" isPlacement="true" />
-    <location name="comfy chair" isBeacon="true" isPlacement="true" />
+    <location name="living table" isPlacement="true" />
+    <location name="sofa" isBeacon="true" />
+    <location name="comfy chair" isBeacon="true" />
   </room>
   <room name="kitchen">
-    <location name="cabinet" isBeacon="true" isPlacement="true" />
-    <location name="sink" isBeacon="true" isPlacement="true" />
     <location name="bar" isBeacon="true" isPlacement="true" />
-    <location name="kitchen counter" isBeacon="true" isPlacement="true" />
-    <location name="stove" isBeacon="true" isPlacement="true" />
-    <location name="fridge" isPlacement="true" />
+    <location name="kitchen counter" isPlacement="true" />
+    <location name="stove" isPlacement="true" />
   </room>
   <room name="bath room">
+    <location name="fridge" isBeacon="true" />
+    <location name="cabinet" isPlacement="true" />
   </room>
 </rooms>
