@@ -28,7 +28,7 @@ $task      = $closedoorI
 $task      = $serveI
 
 ; Bring from description
-$task      = $bringdesc
+$task      = $bringdescI
 
 ; Count
 $task      = $countobjI
@@ -96,7 +96,7 @@ $ontrayI   = $vbdeliver me some $foodI and a $drinkI on a tray
 ##############################################################################
 $retrieveI = $vbdeliver me some {category} $storageI
 $storeI    = put the {object?} into the $storage
-$store     = pick up a {category meta: the object is on the {placement}} and put it into the $storage
+$storeI    = pick up a {category meta: the object is on the {placement}} and put it into the $storage
 
 
 
@@ -121,9 +121,9 @@ $bdfrom    = {void meta: object is in the {placement 1}}
 # Pouring
 #
 ##############################################################################
-$pourI     = $vbdeliver me some $pourableI in a $canpourin
+$pourI     = $vbdeliver me $pourableI in a $canpourin
 $pourI     = $vbdeliver me some $pourable in a $canpourinI
-$pourI     = $vbpour some $pourableI in a $canpourin
+$pourI     = $vbpour $pourableI in a $canpourin
 $pourI     = $vbpour some $pourable in a $canpourinI
 
 
